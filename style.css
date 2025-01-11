@@ -1,3 +1,33 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+ background-color: hsl(47, 88%, 63%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  height: 400px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 10px;
+  font-family: "Figtree";
+}
+
+
+
+.attribution {
+  font-size: 11px; 
+  text-align: center;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}

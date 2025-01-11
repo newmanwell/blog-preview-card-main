@@ -1,3 +1,73 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+ background-color: hsl(47, 88%, 63%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  height: 400px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 10px;
+  font-family: "Figtree";
+  box-shadow: 10px 5px 5px black;
+}
+
+.header-img {
+  height: 120px;
+  width: 100%;
+  border-radius: 5%;
+}
+
+section h2 {
+  background-color: hsl(47, 88%, 63%);
+  width: 35%;
+  padding: 5px;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.pub {
+  font-size: .7rem;
+}
+
+section h1 {
+  font-size: 1.2rem;
+}
+
+ .para {
+  color: hsl(0, 0%, 42%);
+  font-size: .8rem;
+ }
+
+ .name {
+  display: flex;
+ }
+
+ .name h3 {
+  margin-left: 5px;
+  font-size: 1rem;
+  vertical-align: middle;
+  line-height: 40px;
+ }
+
+
+.attribution {
+  font-size: 11px; 
+  text-align: center;
+  margin-top: 15px;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
